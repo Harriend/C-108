@@ -1,0 +1,59 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/atl7sca.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap" rel="stylesheet">
+  </head>
+
+  <body style="background-color: rgb(210, 216, 215);">
+      <center>
+
+        <div id="name" class="form-group"><h1 style="color: white;">Alien Sound Identification</h1>
+        <br>
+        <label><i><b>note:play sounds of movement of a rubik's cube, metallic sound and clapping to make the aliens dance</b></i></label>
+        </div><br><br>
+
+       <button onclick="startClassification()" class="form-control i" style="width: 30%;">Start</button>  
+       <br>
+       
+       <h4 class="i" id="sound">What I can hear - </h4>
+       <h4 class="i" id="accuracy">Accuracy - <span id="accuracy" class="i"></span> </h4><br><br>
+
+       <span id="aliens">
+         <img id="alien-1" src="aliens-01.png" width="300" height="200">
+         <img id="alien-2" src="aliens-02.png" width="300" height="200">
+         <img id="alien-3" src="aliens-03.png" width="300" height="200">
+         <img id="alien-4" src="aliens-04.png" width="300" height="200">
+      
+      </span><br></br>
+
+      <div class="copy_right_footer"><i>@Developed by : Shashank</i></div>
+
+       
+
+       
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+<!--https://teachablemachine.withgoogle.com/models/BekTqMVAa/-->
+
+
+
+
+
+
+
+
+ 
+

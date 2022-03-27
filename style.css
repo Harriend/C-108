@@ -1,0 +1,27 @@
+#name{
+    background-color: rgb(175, 177, 179);
+    width: 70%;
+    font-family: indie-flower, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.copy_right_footer{
+    text-align: right; 
+    opacity: 50%; color: black;
+    position: sticky;
+    margin: 30px;
+    font-family: reenie-beanie, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#aliens{
+    flex: 20px;
+}
+
+.i{
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;
+}
